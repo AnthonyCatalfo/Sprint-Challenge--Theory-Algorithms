@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="161.5" cy="299.5" rx="30" ry="30"/>
+	<text x="128.5" y="305.5" font-family="Times New Roman" font-size="20">sleeping</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="340.5" cy="299.5" rx="30" ry="30"/>
+	<text x="305.5" y="305.5" font-family="Times New Roman" font-size="20">preening</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="390.5" cy="438.5" rx="30" ry="30"/>
+	<text x="366.5" y="444.5" font-family="Times New Roman" font-size="20">eating</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="115.5" cy="438.5" rx="30" ry="30"/>
+	<text x="84.5" y="444.5" font-family="Times New Roman" font-size="20">hunting</text>
+	<polygon stroke="black" stroke-width="1" points="145.5,438.5 360.5,438.5"/>
+	<polygon fill="black" stroke-width="1" points="360.5,438.5 352.5,433.5 352.5,443.5"/>
+	<text x="224.5" y="429.5" font-family="Times New Roman" font-size="20">hungry</text>
+	<polygon stroke="black" stroke-width="1" points="191.5,299.5 310.5,299.5"/>
+	<polygon fill="black" stroke-width="1" points="310.5,299.5 302.5,294.5 302.5,304.5"/>
+	<text x="226.5" y="320.5" font-family="Times New Roman" font-size="20">happy</text>
+	<polygon stroke="black" stroke-width="1" points="152.075,327.981 124.925,410.019"/>
+	<polygon fill="black" stroke-width="1" points="124.925,410.019 132.186,403.995 122.692,400.853"/>
+	<text x="74.5" y="368.5" font-family="Times New Roman" font-size="20">hungry</text>
+	<polygon stroke="black" stroke-width="1" points="380.346,410.271 350.654,327.729"/>
+	<polygon fill="black" stroke-width="1" points="350.654,327.729 348.657,336.949 358.067,333.565"/>
+	<text x="373.5" y="367.5" font-family="Times New Roman" font-size="20">happy</text>
+</svg>

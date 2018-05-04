@@ -4,9 +4,9 @@
 
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
-
+/antelopes?/
 * Single regex that matches either of these:
-
+/antelopes? rocks? out/
     antelope rocks out
     
     antelopes rock out
@@ -20,7 +20,7 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
-
+/[gm]oat/
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
@@ -32,7 +32,7 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
-
+/[\s?](\d{1,4}-\d{1,2}-\d{1,2}\s)/g
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
@@ -55,11 +55,11 @@ both `antelope` and `antelopes`.)
   for commands to change its behavior. For example:
 
       ESC[12;45f
-
+/ESC\[\d+;\d+f/g
   moves the cursor to line 12, column 45.
 
       ESC[1m
-
+/ESC\[1m/g
   changes the font to bold.
 
   * Come up with regexes for the two above sequences. The one to set the
